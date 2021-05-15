@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 200px;
+  padding: 20px;
+  transition: 1s;
+}
+
+.gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
